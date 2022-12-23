@@ -1,4 +1,4 @@
-FROM adoptopenjdk:8-jre-hotspot
+FROM openjdk:17-jdk-slim
 VOLUME /data
 EXPOSE 19132
 
