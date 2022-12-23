@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:latest
 VOLUME /data
 EXPOSE 19132
 
