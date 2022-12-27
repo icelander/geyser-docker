@@ -6,6 +6,7 @@ cd /data
 
 if [ ! -f $CONFIG_FILE ] || [ "$OVERWRITE_CONFIG" == "yes" ]
 then
+    echo "Generating config"
     envsubst < /opt/config.yml.template > /data/config.yml
 fi
 
