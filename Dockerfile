@@ -18,7 +18,7 @@ ENV BEDROCK_MOTD1 "GeyserMC"
 ENV BEDROCK_MOTD2 "Another GeyserMC forced host."
 
 # Remote Server Config (java server)
-ENV REMOTE_ADDRESS: "127.0.0.1"
+ENV REMOTE_ADDRESS "127.0.0.1"
 ENV REMOTE_PORT "25565"
 ENV REMOTE_AUTH_TYPE "online"
 
