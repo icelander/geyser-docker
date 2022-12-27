@@ -1,4 +1,4 @@
-FROM openjdk:latest
+FROM eclipse-temurin:latest
 VOLUME /data
 EXPOSE 19132
 
